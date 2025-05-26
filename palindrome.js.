@@ -1,6 +1,6 @@
 // Promt to Enter two words 
-let word1 = prompt("Enter the first word (ex, RACECAR):");
-let word2 = prompt("Enter the second word (ex, RECORDER):");
+let word1 = prompt("Enter the first word (ex,RACECAR):");
+let word2 = prompt("Enter the second word (ex,RECORDER):");
 
 //Function to Reverse
 function isPalindrome(str) {

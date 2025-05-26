@@ -5,9 +5,9 @@ let combined = [numbers, names];
 console.log("Combined array:", combined);
 
 // Sorting numbers in reverse order
-let sortedNumbers = [...numbers].sort((a, b) => b - a);
+let sortedNumbers = [numbers].sort((a, b) => b - a);
 console.log("Numbers Sorted in Reverse:", sortedNumbers);
 
 // Sorting names alphabetically
-let sortedNames = [...names].sort();
+let sortedNames = [names].sort();
 console.log("Names Sorted Alphabetically:", sortedNames);
